@@ -1,0 +1,13 @@
+name: IslandWars
+version: 0.1
+main: islandwars.IslandWars
+api-version: 1.18
+authors: [ Jbsundown ]
+loadbefore: [Multiverse-Core]
+load: STARTUP
+commands:
+  newworld:
+    description: Creates a new void world
+    usage: /<command>
+  joinwar:
+    description: Joins the queued war
